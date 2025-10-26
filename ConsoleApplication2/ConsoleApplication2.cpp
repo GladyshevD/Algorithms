@@ -111,6 +111,7 @@ int main() {
     arr2.data = new int[size2];
     ArrayFromFile("input2.txt", arr2);
     int result = findMin(arr2);
-    cout << "Минимальная разность четных элементов: " << result << endl;
+    cout << "Минимальная разность четных элементов: " << result;
     delete[] arr2.data;
+
 }
